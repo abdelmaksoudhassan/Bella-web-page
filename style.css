@@ -1,0 +1,180 @@
+.container{
+    padding: 0px 100px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    margin: 10px 0px;
+    list-style: none;
+}
+.Bella strong{
+    font-size: 30px;
+    color: #6e7f80;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 5px;
+}
+.nav-item{
+    margin-left: 10px;
+    color: #6e7f80;
+    font-size: 23px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.Bella strong:hover,
+.Bella:hover,
+.nav-item:hover{
+    color: #2ab7ca ;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+.bella-email span:hover,
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    transition: all 0.3s linear;
+}
+.read-el:hover,
+.card:hover,
+.foot:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    transition: all 0.3s linear;
+}
+.note:hover,
+.media:hover{
+    cursor: pointer;
+    transform:translateX(10px);
+    transition: all 0.3s linear;   
+}
+.template{
+    background-image: url('./fog.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.bella-email div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: 'Raleway', sans-serif;
+}
+.read-more{
+    margin:50px 0px ;
+    display: flex;
+    justify-content: space-around;
+}
+.read-el{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+.read-el p{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    background-color: #e6e6ea;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.card .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: #6e7f80 1px solid;
+}
+.uk-divider-icon{
+    background-color: white;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+}
+.note{
+    margin: 10px;
+}
+.row{
+    display: flex;
+}
+.media{
+    border:#eeeeee solid 1px;
+    margin: 10px 0px ;
+}
+.sign-up{
+    margin:20px;
+    text-align: center;
+}
+.foot{
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.foot ul{
+    display: flex;
+    justify-content: center;
+}
+.foot ul li{
+    margin: 10px;
+}
+.sign-up div{
+    font-size: 30px;
+    color: #6e7f80;
+    margin:20px
+}
+.sign-up div strong{
+    color: #6e7f80;
+}
+.sign-up button{
+    margin:20px
+}
+button{
+    font-family: 'Raleway', sans-serif;
+}
+@media(max-width: 600px){
+    .Bella strong{
+        font-size: 25;
+    }
+    .nav-item{
+        font-size: 20;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 650px){
+    .read-more{
+        flex-direction: column;
+        align-items: center;
+    }
+    .media img{
+        display: none;
+    }
+}
+@media(max-width: 900px){
+    .container{
+        padding: 0px 10px;
+    }
+    .photo{
+        display: none;
+    }
+}
