@@ -12,6 +12,7 @@
     font-size: 30px;
     color: #6e7f80;
     font-family: 'Raleway', sans-serif;
+    transition: all 0.3s linear;
 }
 .nav-items{
     display: flex;
@@ -25,11 +26,12 @@
     color: #6e7f80;
     font-size: 23px;
     font-family: 'Baloo Bhaina 2', cursive;
+    transition: all 0.3s linear;
 }
 .Bella strong:hover,
 .Bella:hover,
 .nav-item:hover{
-    color: #2ab7ca ;
+    color: #ff6f69  ;
     cursor: pointer;
     transition: all 0.3s linear;
     text-decoration: none;
@@ -41,17 +43,22 @@
     transition: all 0.3s linear;
 }
 .read-el:hover,
-.card:hover,
-.foot:hover{
+.card:hover{
     cursor: pointer;
     transform: scale(1.1,1.1);
     transition: all 0.3s linear;
 }
+.sections li:hover{
+    cursor: pointer;
+    color: #ff6f69 ;
+}
 .note:hover,
-.media:hover{
+.media_:hover
+{
     cursor: pointer;
     transform:translateX(10px);
     transition: all 0.3s linear;   
+    color: 6f7c85 ;
 }
 .template{
     background-image: url('./fog.jpg');
@@ -66,6 +73,11 @@
     align-items: center; 
     font-family: 'Raleway', sans-serif;
 }
+.bella-email div span,
+.bella-email div button
+{
+    transition: all 0.3s linear;
+}
 .read-more{
     margin:50px 0px ;
     display: flex;
@@ -77,6 +89,7 @@
     flex-direction: column;
     align-items: center;
     margin: 20px 0px;
+    transition: all 0.3s linear;
 }
 .read-el p{
     text-align: center;
@@ -84,6 +97,7 @@
 .cards{
     display: flex;
     justify-content: space-around;
+    margin: 50px auto;
 }
 .card{
     background-color: #e6e6ea;
@@ -91,6 +105,7 @@
     padding: 20px;
     text-align: center;
     margin: 20px;
+    transition: all 0.3s linear;
 }
 .card .img{
     width: 100px;
@@ -101,24 +116,28 @@
 .uk-divider-icon{
     background-color: white;
 }
-.photo{
-    width: 100%;
-    height: 100%;
-    margin: 30px;
-}
 .note{
     margin: 10px;
+    transition: all 0.3s linear;
 }
 .row{
     display: flex;
 }
-.media{
+.media_{
     border:#eeeeee solid 1px;
     margin: 10px 0px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 .sign-up{
     margin:20px;
     text-align: center;
+}
+.sign-up button{
+    transition: all 0.3s linear;
 }
 .foot{
     color: white;
@@ -134,6 +153,7 @@
 }
 .foot ul li{
     margin: 10px;
+    transition: all 0.3s linear;
 }
 .sign-up div{
     font-size: 30px;
@@ -166,15 +186,15 @@ button{
         flex-direction: column;
         align-items: center;
     }
-    .media img{
-        display: none;
+    .media_{
+        flex-direction: column;
+    }
+    .media_ img{
+        border-radius: 50%;
     }
 }
 @media(max-width: 900px){
     .container{
         padding: 0px 10px;
-    }
-    .photo{
-        display: none;
     }
 }
