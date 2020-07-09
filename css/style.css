@@ -9,7 +9,7 @@
     list-style: none;
 }
 .Bella strong{
-    font-size: 30px;
+    font-size: 25px;
     color: #6e7f80;
     font-family: 'Raleway', sans-serif;
     transition: all 0.3s linear;
@@ -24,7 +24,7 @@
 .nav-item{
     margin-left: 10px;
     color: #6e7f80;
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Baloo Bhaina 2', cursive;
     transition: all 0.3s linear;
 }
@@ -61,11 +61,17 @@
     color: 6f7c85 ;
 }
 .template{
-    background-image: url('./fog.jpg');
+    background-image: url('./images/fog.jpg');
     background-position: center;
     background-size: cover;
     height: 500px;
     width: 100%;
+}
+.emailTemplate{
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    color: #6e7f80;
 }
 .bella-email div{
     display: flex;
@@ -169,12 +175,20 @@
 button{
     font-family: 'Raleway', sans-serif;
 }
+@media(max-width: 400px){
+    .emailTemplate{
+        font-size: 25px;
+    }
+    .sections{
+        font-size: 11px;
+    }
+}
 @media(max-width: 600px){
     .Bella strong{
-        font-size: 25;
+        font-size: 18px;
     }
     .nav-item{
-        font-size: 20;
+        font-size: 15px;
     }
     .cards{
         flex-direction: column;
