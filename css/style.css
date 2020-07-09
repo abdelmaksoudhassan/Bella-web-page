@@ -68,7 +68,7 @@
     width: 100%;
 }
 .emailTemplate{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 200px;
     margin-bottom: 20px;
     color: #6e7f80;
@@ -175,7 +175,7 @@
 button{
     font-family: 'Raleway', sans-serif;
 }
-@media(max-width: 400px){
+@media(max-width: 450px){
     .emailTemplate{
         font-size: 20px;
     }
