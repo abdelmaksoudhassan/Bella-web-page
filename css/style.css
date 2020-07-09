@@ -178,7 +178,6 @@ button{
 @media(max-width: 400px){
     .emailTemplate{
         font-size: 20px;
-        text-align: center;
     }
     .sections{
         font-size: 11px;
